@@ -108,6 +108,7 @@ def movies_with_directors_set(source)
   while counter<source.length do 
     name=source[counter][:name]
     movies_collection=source[counter][:movies]
+    directory_key=movies_with_directors_key(name,movies_collection)
     counter+=1
   end
 

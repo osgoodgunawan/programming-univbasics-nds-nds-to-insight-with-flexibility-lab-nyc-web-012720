@@ -106,8 +106,8 @@ def movies_with_directors_set(source)
   array=[]
   counter=0
   while counter<source.length do 
-    name=source[counter][]
-    movies_collection=source[counter][movies]
+    name=source[counter][:name]
+    movies_collection=source[counter][:movies]
     counter+=1
   end
 
